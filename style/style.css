@@ -348,6 +348,27 @@ a {
 .view__close:hover {
     text-shadow: 0 0 15px white;
 }
+.check__close {
+    color: rgb(255, 0, 0);
+    font-size: 32px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    z-index: 999;
+    right: 20px;
+    top: -15px;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    outline: none;
+}
+.check__close:hover {
+    text-shadow: 0 0 15px white;
+}
 .view > img {
     display: inline-block;
     vertical-align: middle;

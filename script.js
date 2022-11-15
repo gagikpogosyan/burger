@@ -214,9 +214,9 @@ addCart.addEventListener('click', function() {
     }, 200);
 
 
-    receiptBtn.addEventListener('click', function () {
-        location.reload();
-    })
+    // receiptBtn.addEventListener('click', function () {
+    //     location.reload();
+    // })
 });
 
 
@@ -227,11 +227,12 @@ const closeBtn = document.querySelector('.view__close');
 const view = document.querySelector('.view');
 const viewImg = document.querySelector('img')
 const img = document.querySelector('.imgZoom');
+const exitCheck = document.querySelector('.check__close');
 
 
 
 
-console.log(img); 
+console.log(exitCheck); 
 
 
 for(let i = 0; i < info.length; i++) {
@@ -243,8 +244,11 @@ for(let i = 0; i < info.length; i++) {
         view.classList.add('active');
         closeBtn.addEventListener('click' , function () {
             view.classList.remove('active');
-        })
+        });
     })
+    exitCheck.addEventListener('click', function () {
+        location.reload();
+    });
 }
 
 // const img = document.querySelector('.imgZoom');
