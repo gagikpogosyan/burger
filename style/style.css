@@ -379,7 +379,18 @@ a {
     }
 }
 @media (max-width: 500px) {
-
+    .receipt.active .receipt__window{
+        width: 80%;
+        min-height: 50%;
+        background: #fff;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.5s;
+        top: -100%; /* 0 */
+        position: absolute;
+    }
     .main {
         width: 95%;
     }

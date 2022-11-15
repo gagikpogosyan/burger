@@ -210,6 +210,7 @@ addCart.addEventListener('click', function() {
     setTimeout(function() {
         receipt.style.opacity = '1'; 
         receiptWindow.style.top = '0';
+
     }, 200);
 
 
