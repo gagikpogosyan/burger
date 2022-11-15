@@ -351,7 +351,7 @@ a {
 .view > img {
     display: inline-block;
     vertical-align: middle;
-    max-width: 100%;
+    max-width: 500px;
     max-height: 100%;
     width: auto !important;
     height: auto !important;
